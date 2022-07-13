@@ -6,7 +6,7 @@
 
 > Greeting app with a Ruby on Rails backend and React frontend.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.gif)
 
 ## Built with
 
@@ -46,6 +46,13 @@ bundler install
 ./bin/rails db:migrate
 ./bin/rails db:seed
 ./bin/rails server
+```
+
+Make sure to have some greetings in the database before starting the server:
+
+```sh
+./bin/rails console
+irb(main):001:0> Greeting.create(greeting: "Hi there! Welcome to the Hello World app!")
 ```
 
 Open your browser and go to http://localhost:3000/
