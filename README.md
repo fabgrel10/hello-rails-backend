@@ -8,6 +8,10 @@
 
 ![screenshot](./app_screenshot.gif)
 
+## Frontend repo:
+
+<https://github.com/fabgrel10/hello-react-frontend>
+
 ## Built with
 
 - `Ruby 3.1.2`
@@ -55,7 +59,7 @@ Make sure to have some greetings in the database before starting the server:
 irb(main):001:0> Greeting.create(greeting: "Hi there! Welcome to the Hello World app!")
 ```
 
-Open your browser and go to http://localhost:3000/
+Open your browser and go to <http://localhost:3000/>
 
 ### Run tests
 
